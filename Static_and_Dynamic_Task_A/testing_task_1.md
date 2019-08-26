@@ -7,7 +7,7 @@
 class CardGame
 
 
-  def checkforAce(card) # not error, but should probably use snake_case
+  def checkforAce(card) # not error, but should probably use snake_case to follow convention
     if card.value = 1 # '==' operand needs to be used
       return true
     else
@@ -31,5 +31,6 @@ def self.cards_total(cards) # Would be better as an instance method, not a class
     return "You have a total of" + total # total will be an integer, needs to be converted to string to be added onto statement. Return statement needs to be after end statement or will not cycle through rest of cards. Not an error, but should have space after of, ie "You have a total of " for readability.
   end
 end
+
+# Needs end statement for CardGame class
 ```
-# Needs end statement for class
