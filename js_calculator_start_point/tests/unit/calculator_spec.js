@@ -56,3 +56,4 @@ describe('calculator', function () {
     calculator.operatorClick("=")
     assert.equal(6, calculator.runningTotal)
   })
+});
